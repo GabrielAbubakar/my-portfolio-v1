@@ -1,0 +1,46 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+
+.mainSection {
+    position: relative;
+    height: 100vh;
+
+    h1 {
+        color: $color-text-grey;
+        width: 70%;
+        font-size: 4.1rem;
+        font-weight: 400;
+        position: absolute;
+        bottom: 8rem;
+
+        @include respond(tab-land) {
+            width: 85%;
+        }
+
+        @include respond(tab-port) {
+            width: 100%;
+           // bottom: 6rem;
+        }
+
+        @include respond(phone) {
+            font-size: 3.3rem;
+        }
+
+        
+    }
+}
+
+
+.brown {
+    color: $color-text-highlight;
+}
+
+.whiteBold {
+    color: $color-white;
+    font-weight: 700;
+}
+
+.white {
+    color: $color-white;
+}
