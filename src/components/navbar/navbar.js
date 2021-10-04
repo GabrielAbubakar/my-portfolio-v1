@@ -7,12 +7,12 @@ const Navbar = () => {
     return (
         
         <nav>
-            <p className="name">Gabriel Abubakar</p>
+            <p className="name">GABRIEL ABUBAKAR.</p>
                 
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#connect">Connect</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#connect">CONNECT</a></li>
                 </ul>
         </nav>
     )

@@ -1,6 +1,7 @@
 @import "sass/variables";
 @import "sass/mixins";
 
+
 *,
 *::before,
 *::after {
@@ -21,13 +22,17 @@ html {
       font-size: 50%;
   }
 
-  --color-background: #181818;
+  //--color-background: #181818;
 }
+
+// html[data-theme='light'] {
+//   --color-background: #b9b1b1;
+// }
 
 
 
 body {
-  background-color: var(--color-background);
+  background-color: $color-background;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
@@ -36,6 +41,6 @@ body {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 93%;
   margin: 0 auto;
 }

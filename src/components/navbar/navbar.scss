@@ -1,38 +1,43 @@
 @import "../../sass/variables";
 @import "../../sass/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 nav {
     display: flex;
     justify-content: space-between;
     padding-top: 4rem;
-}
 
-p {
-    font-size: 2rem;
-}
+        
+    p {
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
 
-ul {
+    
+    ul {
 
-    @include respond(phone) {
-        display: none;
+        @include respond(phone) {
+            display: none;
+        }
+    }
+
+    li {
+        display: inline;
+    }
+
+    li:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    a {
+        color: $color-text;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+
+    a:hover {
+        color: $color-white;
     }
 }
 
-li {
-    display: inline;
-}
-
-li:not(:last-child) {
-    margin-right: 1rem;
-}
-
-a {
-    color: $color-text;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.8rem;
-}
-
-a:hover {
-    color: $color-white;
-}
