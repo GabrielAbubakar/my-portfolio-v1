@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./about.scss"
-import Heading from "../../components/header/heading";
+import "./about.scss"
+import Heading from "../../components/heading/heading";
 
 const About = () => {
-
+    
     return (
 
         <section className="about">
@@ -26,6 +26,8 @@ const About = () => {
                 <p className="about__text">
                     I’m open to learning new web technologies in other to be able to work efficiently in diverse development teams. 
                 </p>
+
+                <a href="#">Resume</a>
             </article>
         </section>
     )

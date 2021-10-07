@@ -1,6 +1,7 @@
 import './App.scss';
 import About from './sections/about/about';
 import MainSection from './sections/mainSection/mainSection';
+import Work from './sections/work/work';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         
         <MainSection />
         <About />
+        <Work />
 
         
             {/* <label htmlFor="switch">click</label>

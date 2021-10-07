@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../../components/navbar/navbar"
-import styles from "./mainSection.scss"
+import "./mainSection.scss"
 
 const MainSection = () => {
 

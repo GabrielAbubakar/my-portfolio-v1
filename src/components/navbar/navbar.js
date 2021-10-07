@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./navbar.scss"
+import "./navbar.scss"
 
 
 const Navbar = () => {
@@ -10,9 +10,9 @@ const Navbar = () => {
             <p className="name">GABRIEL ABUBAKAR.</p>
                 
                 <ul>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#work">WORK</a></li>
-                    <li><a href="#connect">CONNECT</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#connect">Connect</a></li>
                 </ul>
         </nav>
     )
