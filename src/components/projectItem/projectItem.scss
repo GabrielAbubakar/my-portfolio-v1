@@ -1,0 +1,41 @@
+@import '../../sass/mixins';
+
+.project__item {
+
+    margin-bottom: 7rem;
+
+    p {
+        font-size: 2rem;
+
+        @include respond(tab-land) {
+            font-size: 1.8rem;
+        }
+
+        @include respond(tab-phone) {
+            font-size: 1.6rem;
+        }
+    }
+
+    figure {
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+
+        &:hover {
+            transform: scale(1.01);
+            transition: transform .5s ease;
+            backface-visibility: hidden;
+        }
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+    }
+}
