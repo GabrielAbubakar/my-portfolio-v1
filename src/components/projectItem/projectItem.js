@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
     return(
 
         <div className="project__item">
-            <a href={props.link} target="_blank" >
+            <a href={props.link} target="_blank" rel="noopener">
                 <figure>
                     <img src={props.image} alt={props.alt} width="1080" height="561"/>
                 </figure>
