@@ -22,6 +22,7 @@ const Work = () => {
             </p>
             <div className="work__flex">
                 <div className="project__column">
+                    
                     <ProjectItem image={Loop} title="Loopstudios" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://loopstudio-gabeabu.netlify.app/" alt="Loopstudios page" />
 
                     <ProjectItem image={Natours} title="Natours" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-natours-home.netlify.app/" alt="Natours page" />

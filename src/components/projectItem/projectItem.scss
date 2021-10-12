@@ -1,8 +1,15 @@
 @import '../../sass/mixins';
+@import '../../sass/variables';
 
 .project__item {
 
     margin-bottom: 7rem;
+
+    h3 {
+        font-size: 2.3rem;
+        color: $color-sub-highlight;
+        text-transform: uppercase;
+    }
 
     p {
         font-size: 2rem;

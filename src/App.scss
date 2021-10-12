@@ -43,4 +43,28 @@ body {
 .container {
   max-width: 93%;
   margin: 0 auto;
+
+  @include respond(tab-port) {
+    max-width: 91%;
+}
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #727172;
+  border-radius: 19px;
+}
+
+  ::-webkit-scrollbar-thumb:hover {
+  background: #C7C3C7;
+  }
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+  border-radius: 19px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
 }

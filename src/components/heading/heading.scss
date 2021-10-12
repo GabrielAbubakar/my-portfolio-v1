@@ -10,6 +10,8 @@
         font-size: 10rem;
         font-weight: 500;
         color: $color-text;
+        // -webkit-text-stroke: 1px #999380;
+        // -webkit-text-fill-color: #181818;
 
         @include respond(tab-port) {
             font-size: 7rem;
