@@ -2,11 +2,11 @@ import React from "react";
 import "./work.scss";
 import Heading from "../../components/heading/heading";
 import ProjectItem from "../../components/projectItem/projectItem";
-import Loop from '../../assets/Loopstudios.png'
-import Natours from '../../assets/Natours.png'
-import Parsons from '../../assets/Parsons.png'
-import Trillo from '../../assets/Trillo.png'
-import Portfolio from '../../assets/Portfolio.png'
+import Loop from '../../assets/Loopstudios.jpeg'
+import Natours from '../../assets/Natours.jpeg'
+import Parsons from '../../assets/Parsons.jpeg'
+import Trillo from '../../assets/Trillo.jpeg'
+import Portfolio from '../../assets/Portfolio.jpeg'
 
 
 const Work = () => {
@@ -22,13 +22,19 @@ const Work = () => {
             </p>
             <div className="work__flex">
                 <div className="project__column">
-                    <ProjectItem image={Loop} title="Loopstudios" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." />
-                    <ProjectItem image={Natours} title="Natours" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit."/>
-                    <ProjectItem image={Parsons} title="Parsons" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit."/>
+                    <ProjectItem image={Loop} title="Loopstudios" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://loopstudio-gabeabu.netlify.app/" />
+
+                    <ProjectItem image={Natours} title="Natours" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-natours-home.netlify.app/" />
+
+                    <ProjectItem image={Parsons} title="Parsons" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://parsons-home.netlify.app/" />
+
                 </div>
                 <div className="project__column margin-top">
-                    <ProjectItem image={Trillo} title="Trillo" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit."/>
-                    <ProjectItem image={Portfolio} title="Portfolio" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit."/>
+
+                    <ProjectItem image={Trillo} title="Trillo" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-trillo-home.netlify.app/" />
+
+                    <ProjectItem image={Portfolio} title="Portfolio" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabrielabubakar.netlify.app/" />
+
                 </div>
             </div>
 
