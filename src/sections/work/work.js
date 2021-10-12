@@ -22,18 +22,18 @@ const Work = () => {
             </p>
             <div className="work__flex">
                 <div className="project__column">
-                    <ProjectItem image={Loop} title="Loopstudios" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://loopstudio-gabeabu.netlify.app/" />
+                    <ProjectItem image={Loop} title="Loopstudios" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://loopstudio-gabeabu.netlify.app/" alt="Loopstudios page" />
 
-                    <ProjectItem image={Natours} title="Natours" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-natours-home.netlify.app/" />
+                    <ProjectItem image={Natours} title="Natours" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-natours-home.netlify.app/" alt="Natours page" />
 
-                    <ProjectItem image={Parsons} title="Parsons" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://parsons-home.netlify.app/" />
+                    <ProjectItem image={Parsons} title="Parsons" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://parsons-home.netlify.app/" alt="Parsons page"/>
 
                 </div>
                 <div className="project__column margin-top">
 
-                    <ProjectItem image={Trillo} title="Trillo" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-trillo-home.netlify.app/" />
+                    <ProjectItem image={Trillo} title="Trillo" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-trillo-home.netlify.app/" alt="Trillo page"/>
 
-                    <ProjectItem image={Portfolio} title="Portfolio" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabrielabubakar.netlify.app/" />
+                    <ProjectItem image={Portfolio} title="Portfolio" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabrielabubakar.netlify.app/" alt="Portfolio Page"/>
 
                 </div>
             </div>
