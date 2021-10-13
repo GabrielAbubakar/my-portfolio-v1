@@ -7,6 +7,10 @@
     height: 100vh;
     margin-bottom: 12rem;
 
+    @include respond(phone) {
+        height: 93vh;
+    }
+
     h1 {
         color: $color-text-grey;
         width: 70%;

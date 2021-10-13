@@ -1,6 +1,7 @@
 @import "../../sass/variables";
 @import "../../sass/mixins";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 .footer {
     
@@ -29,14 +30,14 @@
             }
 
             @include respond(tab-land) {
-                font-size: 1.7rem;
+                font-size: 1.9rem;
             }
         }
 
         a {
             font-size: 8rem;
             color: #B3A577;
-            font-family: 'Prata', serif;
+            font-family: 'Nanum Myeongjo', serif;
             transition: all .2s;
 
             @include respond(tab-port) {
@@ -44,7 +45,7 @@
             }
 
             @include respond(phone) {
-                font-size: 5rem;
+                font-size: 4.3rem;
             }
 
             &:hover {

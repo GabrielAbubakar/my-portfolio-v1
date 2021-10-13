@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="footer__flex">
                     <div className="footer__content">
 
-                        <p>Lets talk about your next amazing idea.</p>
+                        <p>Talk about your next amazing idea.</p>
                         <a href="#" rel="noopener" >Send me an email</a>
 
                     </div>
