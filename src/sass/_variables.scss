@@ -9,11 +9,14 @@ $color-black: #000;
 
 $default-font-size: 1.6rem;
 
-:root {
+:root,
+:root.dark {
     --color-background: #181818;
     --color-text: #cccccc;
     --color-text-highlight: #B3A577;
     --color-text-grey: #828282;
+    --color-highliight-white: #f0f6fc;
+    --color-sub-highlight: #8f876d;
 
     --color-white: #fff;
     --color-black: #000;
@@ -35,7 +38,7 @@ $default-font-size: 1.6rem;
 // $default-font-size: 1.6rem;
 
 
-// :root {
+// :root.light {
 //     --color-background: #eaebe4;
 //     --color-text: #444444;
 //     --color-text-highlight: #675c35;
