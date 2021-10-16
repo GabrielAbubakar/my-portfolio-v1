@@ -12,7 +12,7 @@
     }
 
     h1 {
-        color: $color-text-grey;
+        color: var(--color-text-grey);
         width: 70%;
         font-size: 4.1rem;
         font-weight: 400;
@@ -38,14 +38,14 @@
 
 
 .brown {
-    color: $color-text-highlight;
+    color: var(--color-text-highlight);
 }
 
 .whiteBold {
-    color: $color-white;
+    color: var(--color-white);
     font-weight: 700;
 }
 
 .white {
-    color: $color-white;
+    color: var(--color-white);
 }

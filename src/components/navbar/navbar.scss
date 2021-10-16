@@ -36,18 +36,18 @@ nav {
     }
 
     li:not(:last-child) {
-        margin-right: 1rem;
+        margin-right: 1.3rem;
     }
 
     a {
-        color: $color-text;
+        color: var(--color-text);
         text-decoration: none;
         font-weight: 500;
         font-size: 1.6rem;
     }
 
     a:hover {
-        color: $color-white;
+        color: var(--color-text-highlight);
     }
 }
 

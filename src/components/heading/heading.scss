@@ -2,14 +2,14 @@
 @import "../../sass/mixins";
 
 .heading {
-    border-bottom: 2px solid $color-text;
+    border-bottom: 2px solid var(--color-text);
     margin-bottom: 5rem;
     
 
     h2 {
         font-size: 8rem;
         font-weight: 500;
-        color: $color-text;
+        color: var(--color-text);
         // -webkit-text-stroke: 1px #999380;
         // -webkit-text-fill-color: #181818;
 
