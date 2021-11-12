@@ -57,7 +57,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: var(--thumbscroll-thumb);
-  border-radius: 19px;
+  //border-radius: 19px;
 }
 
   ::-webkit-scrollbar-thumb:hover {
@@ -66,6 +66,6 @@ body {
 
 ::-webkit-scrollbar-track {
   background: var(--thumbscroll-track);
-  border-radius: 19px;
+  //border-radius: 19px;
   box-shadow: inset 0px 0px 0px 0px #F0F0F0;
 }
