@@ -23,18 +23,18 @@ const Work = () => {
             <div className="work__flex">
                 <div className="project__column">
                     
-                    <ProjectItem image={Loop} title="Loopstudios" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://loopstudio-gabeabu.netlify.app/" alt="Loopstudios page" />
+                    <ProjectItem image={Loop} title="Loopstudios" details="Made with the building blocks of the web (HTML, CSS and JS), a landing page project for a fictional VR firm." link="https://loopstudio-gabeabu.netlify.app/" alt="Loopstudios page" />
 
-                    <ProjectItem image={Natours} title="Natours" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-natours-home.netlify.app/" alt="Natours page" />
+                    <ProjectItem image={Natours} title="Natours" details="The landing page of a fictonal tourism agency with a display of CSS animations. (Made with HTML, SCSS and JS)  " link="https://gabeabu-natours-home.netlify.app/" alt="Natours page" />
 
-                    <ProjectItem image={Parsons} title="Parsons" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://parsons-home.netlify.app/" alt="Parsons page"/>
+                    <ProjectItem image={Parsons} title="Parsons" details="Multipage web recreation of a design made in Adobe XD." link="https://parsons-home.netlify.app/" alt="Parsons page"/>
 
                 </div>
                 <div className="project__column margin-top">
 
-                    <ProjectItem image={Trillo} title="Trillo" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabeabu-trillo-home.netlify.app/" alt="Trillo page"/>
+                    <ProjectItem image={Trillo} title="Trillo" details="The home dashboard of a fictional tourist service. Made with HTML and CSS and includes CSS animations." link="https://gabeabu-trillo-home.netlify.app/" alt="Trillo page"/>
 
-                    <ProjectItem image={Portfolio} title="Portfolio" details="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, praesentium. Magnam doloremque odio accusamus ab distinctio quibusdam eius quo impedit." link="https://gabrielabubakar.netlify.app/" alt="Portfolio Page"/>
+                    <ProjectItem image={Portfolio} title="Portfolio" details="My personal portfolio website. Designed in Figma and made for web with ReactJS and SCSS, with responsiveness at every viewport." link="https://gabrielabubakar.netlify.app/" alt="Portfolio Page"/>
 
                 </div>
             </div>
