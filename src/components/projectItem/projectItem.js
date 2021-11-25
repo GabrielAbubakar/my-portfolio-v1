@@ -13,7 +13,12 @@ const ProjectItem = (props) => {
                     </figure>
                 </a>
                 <div>
-                    <h3>{props.title}</h3>
+                    <h3>
+                        {props.title}
+                        <span>
+                            
+                        </span>
+                    </h3>
                     <p>{props.details}</p>
                 </div>
         </div>

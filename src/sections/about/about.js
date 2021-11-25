@@ -18,10 +18,13 @@ const About = () => {
                     I’m interested in creating user web experiences out of designs by writing as little and efficient code as possible so as to reduce load times thereby creating awesome site experiences.
                 </p>
                 <p className="about__text">
-                    I have been writing frontend code since 2020 and over time have acquired various skills that have reenforced my development workflow.
+                    I have been writing frontend code since 2020 and over time have acquired various skills that have advanced my development workflow.
                 </p>
                 <p className="about__text">
-                    These skillls include competency in the building blocks of the web, as well as further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD.
+                    These skillls include competency in the building blocks of the web (HTML, CSS and Javascript), alongside other frontend frameworks and libraries such as React.js, Vue.js and Next.js.
+                </p>
+                <p className="about__text">
+                    I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD.
                 </p>
                 <p className="about__text">
                     I’m open to learning new web technologies in other to be able to work efficiently in diverse development teams. 
