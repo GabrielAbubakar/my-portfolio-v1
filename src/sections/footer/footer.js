@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="footer__content">
 
                         <p>Talk about your next amazing idea.</p>
-                        <a href="#" rel="noopener" >Send me an email</a>
+                        <a href="mailto:gabrielabudev@gmail.com" rel="noopener" >Send me an email</a>
 
                     </div>
                 </div>
