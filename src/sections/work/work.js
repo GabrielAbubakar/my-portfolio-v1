@@ -7,6 +7,9 @@ import Natours from '../../assets/Natours.jpeg'
 import Parsons from '../../assets/Parsons.jpeg'
 import Trillo from '../../assets/Trillo.jpeg'
 import Portfolio from '../../assets/Portfolio.jpeg'
+import LearnLaw from '../../assets/learnlaw.png'
+import Space from '../../assets/spacetours.png'
+import SPHX from '../../assets/Sphx.png'
 
 
 const Work = () => {
@@ -23,18 +26,21 @@ const Work = () => {
             <div className="work__flex">
                 <div className="project__column">
                     
+                    <ProjectItem image={LearnLaw} title="Learn Nigerian Law" details="A live service providing educational materials on the Nigerian Legal System as taught in Nigerian schools. Created in Next.js and in collaboration with another developer to leverage the SEO, prerendering and multipage capabilities of Next.js" link="https://www.learnnigerianlaw.com/" alt="Learn Law home page"/>
+
                     <ProjectItem image={Loop} title="Loopstudios" details="Made with the building blocks of the web (HTML, CSS and JS), a landing page project for a fictional VR firm." link="https://loopstudio-gabeabu.netlify.app/" alt="Loopstudios page" />
 
                     <ProjectItem image={Natours} title="Natours" details="The landing page of a fictonal tourism agency with a display of CSS animations. (Made with HTML, SCSS and JS)  " link="https://gabeabu-natours-home.netlify.app/" alt="Natours page" />
 
-                    <ProjectItem image={Parsons} title="Parsons" details="Multipage web recreation of a design made in Adobe XD." link="https://parsons-home.netlify.app/" alt="Parsons page"/>
 
                 </div>
                 <div className="project__column margin-top">
 
-                    <ProjectItem image={Trillo} title="Trillo" details="The home dashboard of a fictional tourist service. Made with HTML and CSS and includes CSS animations." link="https://gabeabu-trillo-home.netlify.app/" alt="Trillo page"/>
+                    <ProjectItem image={Space} title="Space Tours" details="The home page of a fictional tourist service. Made with the Next.js framework to leverage its multipage and prerendering capabilities" link=" https://spacetourism-gabeabu.netlify.app" alt="Spacetours page"/>
 
                     <ProjectItem image={Portfolio} title="Portfolio" details="My personal portfolio website. Designed in Figma and made for web with ReactJS and SCSS, with responsiveness at every viewport." link="https://gabrielabubakar.netlify.app/" alt="Portfolio Page"/>
+
+                    <ProjectItem image={SPHX} title="SPHX Landing" details="Landing page for a fictional furniture shopping store and a section containing filtered products. React framework for creating the project" link="https://shpx-landing.netlify.app/" alt="SPHX Page"/>
 
                 </div>
             </div>
