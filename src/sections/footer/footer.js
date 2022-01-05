@@ -26,7 +26,7 @@ const Footer = () => {
                         <a href="https://twitter.com/GabeAbubakarr" target="_blank" rel="noreferrer" >TWITTER</a>
                     </div>
                     <p>
-                        &copy; 2021 by GABRIEL ABUBAKAR.
+                        &copy; 2022 by GABRIEL ABUBAKAR.
                     </p>
                 </div>
             </div>
