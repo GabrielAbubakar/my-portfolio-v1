@@ -4,8 +4,6 @@ import Heading from "../../components/heading/heading";
 import ProjectItem from "../../components/projectItem/projectItem";
 import Loop from '../../assets/Loopstudios.jpeg'
 import Natours from '../../assets/Natours.jpeg'
-import Parsons from '../../assets/Parsons.jpeg'
-import Trillo from '../../assets/Trillo.jpeg'
 import Portfolio from '../../assets/Portfolio.jpeg'
 import LearnLaw from '../../assets/learnlaw.png'
 import Space from '../../assets/spacetours.png'
