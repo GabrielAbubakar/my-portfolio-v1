@@ -30,7 +30,7 @@ const About = () => {
                     I’m open to learning new web technologies in other to be able to work efficiently in diverse development teams. 
                 </p>
 
-                <a href="#">Resume</a>
+                <a href="www.googledrive.com">Resume</a>
             </article>
         </section>
     )

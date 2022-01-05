@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__flex2">
                     <div className="footer__social">
-                        <a href="#" target="_blank" rel="noopener" >LINKEDIN</a>
+                        <a href="#" target="_blank" rel="noreferrer" >LINKEDIN</a>
                         <a href="https://github.com/GabrielAbubakar" target="_blank" rel="noreferrer" >GITHUB</a>
                         <a href="https://twitter.com/GabeAbubakarr" target="_blank" rel="noreferrer" >TWITTER</a>
                     </div>
