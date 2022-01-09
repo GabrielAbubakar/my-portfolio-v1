@@ -15,7 +15,7 @@ const About = () => {
                     Hi there, I’m Gabriel, a self taught front-end web developer currently surviving Lagos, Nigeria.
                 </p>
                 <p className="about__text">
-                    I’m interested in creating user web experiences out of designs by writing as little and efficient code as possible so as to reduce load times thereby creating awesome site experiences.
+                    I’m interested in creating user web experiences out of designs by writing as little and efficient code as possible so as to reduce load times thereby creating awesome site experiences.🚀🚀
                 </p>
                 <p className="about__text">
                     I have been writing frontend code since 2020 and over time have acquired various skills that have advanced my development workflow.
@@ -27,7 +27,7 @@ const About = () => {
                     I have also worked personally with further concepts such as Web Accessibility, Site Optimization for Search Engines as well as Prototyping wireframes via products such as Figma and Adobe XD.
                 </p>
                 <p className="about__text">
-                    I’m open to learning new web technologies in other to be able to work efficiently in diverse development teams. 
+                    I’m open to learning new web technologies in other to be able to work efficiently in diverse development teams.🙃 
                 </p>
 
                 <a href="www.googledrive.com">Resume</a>
