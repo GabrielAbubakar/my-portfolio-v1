@@ -12,7 +12,7 @@ const About = () => {
 
             <article className="about__text-container">
                 <p className="about__text">
-                    Hi there, I’m Gabriel, a self taught front-end web developer currently surviving Lagos, Nigeria.
+                    Hi there, I’m Gabriel, a self taught front-end web developer based in Lagos, Nigeria.
                 </p>
                 <p className="about__text">
                     I’m interested in creating user web experiences out of designs by writing as little and efficient code as possible so as to reduce load times thereby creating awesome site experiences.🚀🚀
