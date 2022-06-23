@@ -3,8 +3,8 @@ import "./work.scss";
 import Heading from "../../components/heading/heading";
 import ProjectItem from "../../components/projectItem/projectItem";
 import Loop from '../../assets/Loopstudios.jpeg'
-import Natours from '../../assets/Natours.jpeg'
-import Portfolio from '../../assets/Portfolio.jpeg'
+// import Natours from '../../assets/Natours.jpeg'
+// import Portfolio from '../../assets/Portfolio.jpeg'
 import LearnLaw from '../../assets/learnlaw.png'
 import Space from '../../assets/spacetours.png'
 import SPHX from '../../assets/Sphx.png'
@@ -26,7 +26,7 @@ const Work = () => {
             <div className="work__flex">
                 <div className="project__column">
 
-                    <ProjectItem image={Todo} title="Todo App Tracker" details="Made with React.js functional components and hooks. Also uses the LocalStorage API to persist todo data on page refresh" link="https://loopstudio-gabeabu.netlify.app/" alt="Loopstudios page" />
+                    <ProjectItem image={Todo} title="Todo App Tracker" details="Made with React.js functional components and hooks. Also uses the LocalStorage API to persist todo data on page refresh" link="https://todoapptracker.netlify.app/" alt="Todo App page" />
 
                     <ProjectItem image={LearnLaw} title="Learn Nigerian Law" details="A live service providing educational materials on the Nigerian Legal System as taught in Nigerian schools. Created in Next.js and in collaboration with another developer to leverage the SEO, prerendering and multipage capabilities of Next.js" link="https://www.learnnigerianlaw.com/" alt="Learn Law home page" />
 
